@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body{
+        height: 3000px;
+      }
+      .first-sidebar{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 150px;
+        background-color: bisque;
+      }
+      .second-sidebar{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        top: 0;
+        bottom: 0;
+        left: 150px;
+        width: 250px;
+        background-color: aquamarine;
+      }
+      .x-button{
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        background-color:black;
+        color: white;
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 14px;
+        border: none;
+      }
+      .down-box{
+        background-color: gray;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        width: 320px;
+        height: 180px;
+      }
+      .timer{
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        background-color:black;
+        color: white;
+        font-size: 12px;
+        padding: 6px 10px;
+        border-radius: 6px;
+        border: none;
+
+      }
+      
+
+
+    </style>
+
+  </head>
+  <body>
+    <div class="first-sidebar">photos</div>
+    <div class="second-sidebar">hashtaghs</div>
+
+    <div class="x-button"> X </div>
+
+    <div class="down-box">
+      <div class="x-button"> X </div>
+      <div class="timer">0:29</div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .all{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 30px;
+        
+        
+      }
+      .profile{
+        align-items: center;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+      }
+      .profile-photo{
+        height: 200px;
+       width: 100%;
+      }
+      .add-button{
+        background-color: rgb(56, 66, 245);
+        color: white;
+        font-size: 17px;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 15px;
+        margin-left: 8px;
+        margin-bottom: 6px;
+        cursor: pointer;
+        
+      }
+      .name{
+        font: Arial;
+        font-weight: bold;
+        margin-left: 8px;
+        font-size: 18px;
+      }
+      .friend-info{
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        column-gap: 6px;
+        margin-bottom: 14px;
+      }
+      .info-pic{
+        width: 80%;
+        border-radius: 14px;
+        margin-left: 8px;
+      }
+      .info-info{
+        padding-top: 8px;
+        color: gray;
+        font-size: 17px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="all">
+      <div class="profile">
+        <div>
+          <img src="/img/mycat.jpg" alt="cat1" class="profile-photo"></div>
+        <div>
+          <p class="name">Oliver</p>
+          <div class="friend-info">
+            <div>
+              <img src="/img/cat4.jpeg" alt="friends" class="info-pic">
+            </div>
+            <div class="info-info">
+              No mutual friends
+            </div>
+          </div>
+          <button class="add-button">Add friend</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div>
+          <img src="/img/cat2.jpeg" alt="cat2" class="profile-photo"></div>
+        <div>
+          <p class="name">Peter</p>
+          <div class="friend-info">
+            <div>
+              <img src="/img/cat4.jpeg" alt="friends" class="info-pic">
+            </div>
+            <div class="info-info">
+              3 mutual friends
+            </div>
+          </div>
+          <button class="add-button">Add friend</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div>
+          <img src="/img/cat3.jpeg" alt="cat1" class="profile-photo"></div>
+        <div>
+          <p class="name">Nina</p>
+          <div class="friend-info">
+            <div>
+              <img src="/img/cat4.jpeg" alt="friends" class="info-pic">
+            </div>
+            <div class="info-info">
+              2 mutual friends
+            </div>
+          </div>
+          <button class="add-button">Add friend</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div>
+          <img src="/img/cat4.jpeg" alt="cat1" class="profile-photo"></div>
+        <div>
+          <p class="name">Emma</p>
+          <div class="friend-info">
+            <div>
+              <img src="/img/cat4.jpeg" alt="friends" class="info-pic">
+            </div>
+            <div class="info-info">
+              10 mutual friends
+            </div>
+          </div>
+          <button class="add-button">Add friend</button>
+        </div>
+      </div> 
+      <div></div> 
+      <div></div>
+    </div>
+    
+  </body>
+</html>

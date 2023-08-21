@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .container{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        row-gap: 25px;
+        width: 350px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        margin-bottom: 100px;
+
+      }
+      .member{
+        display: flex;
+        flex-direction: row;
+       align-items: center;
+       justify-content: flex-start;
+      }
+      .photo{
+        width: 65px;
+        height: 65px;
+        border-radius: 40px;
+      }
+      .pic-div{
+        flex: 1;
+        margin-right: 15px;
+      }
+      .info-div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 7px;
+        flex: 4;
+        font-size: 17px;
+      }
+      .name{
+        font-weight: bold;
+      }
+      .info{
+        color: rgb(135, 127, 127);
+      }
+      .button-div{
+        flex: 1;
+      }
+
+      .follow-button{
+        background-color: rgb(40, 131, 235);
+        color: white;
+        font-size: 17px;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 15px;
+        margin-left: 8px;
+        margin-bottom: 6px;
+        cursor: pointer;
+      }
+      .header{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        background-color: rgb(104, 60, 146);
+        height: 60px;
+        width: 850px;
+        align-items: center;
+        font-size: 23px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 20px;
+        margin-bottom: 100px;
+        justify-content: space-between;
+      }
+      
+      
+      .input{
+        width: 500px;
+        border-radius: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        font-size: 16px;
+      }
+       
+      .download-button{
+        background-color: rgb(104, 60, 146);
+        color: white;
+        border: 1px solid white;
+        padding: 10px 15px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      } 
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="header">
+      <div>Home</div>
+      <div>
+        <input type="text" placeholder="Search" class="input">
+      </div>
+      <div>
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div class="member">
+        <div class="pic-div">
+          <img src="img/mycat.jpg" alt="my cat" class="photo">
+        </div>
+        <div class="info-div">
+          <div class="name">Oliver</div>
+          <div class="info">The cat</div>
+          <div class="info">Popular</div>
+        </div>
+        <div class="button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+      <div class="member">
+        <div class="pic-div">
+          <img src="img/cat4.jpeg" alt="my cat" class="photo">
+        </div>
+        <div class="info-div">
+          <div class="name">Nina</div>
+          <div class="info">The cat</div>
+          <div class="info">Popular</div>
+        </div>
+        <div class="button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+      <div class="member">
+        <div class="pic-div">
+          <img src="img/cat3.jpeg" alt="my cat" class="photo">
+        </div>
+        <div class="info-div">
+          <div class="name">Emma</div>
+          <div class="info">The cat</div>
+          <div class="info">Popular</div>
+        </div>
+        <div class="button-div">
+          <button class="follow-button">Follow</button>
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>

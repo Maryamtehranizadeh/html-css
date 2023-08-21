@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .main-container{
+        border: none;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        margin-top: 50px;
+
+      }
+      .container{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        row-gap: 20px;
+        padding: 15px ;
+        font-family: Arial, Helvetica, sans-serif; 
+      }
+      .inbox{
+        color: gray;
+        font-size: 14px;
+      }
+      
+      .big-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      
+        
+        
+      }
+      .photo{
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+      .info-div{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        align-items: start;
+        margin-left: 15px;
+        width: 70%;
+        
+      }
+      .text{
+        font-weight: bold; 
+      }
+      .message{
+        color: gray;
+      }
+      .time{
+        color: gray;
+        font-size: 14px;
+        align-self: self-start;
+      }
+      .tooltip{
+        position: absolute;
+        background-color: gray;
+        padding: 5px 10px;
+        color: white;
+        border-radius: 5px;
+        opacity: 0;
+        transition: opacity 0.2s;
+        pointer-events: none;
+        
+      }
+      .photo-div:hover .tooltip{
+        opacity:1;
+      }
+
+    </style>
+    <body>
+      <div class="container">
+        <div class="inbox">ALL INBOXES</div>
+        <div class="big-div">
+          <div class="photo-div">
+            <img src="img/cat4.jpeg" alt="cat" class="photo">
+            <div class="tooltip">Chewy</div>
+          </div>
+          <div class="info-div">
+            <div class="text">Chewy Promotions</div>
+            <div class="text">Biggest sales of the year!</div>
+            <div class="message">Hey There! We are writing to tell you about our...</div>
+          </div>
+          <div class="time">4:58 PM</div>
+        </div>
+      </div>
+
+
+
+      <div class="main-container">
+        <div class="container">
+          <div class="inbox">ALL INBOXES</div>
+          <div class="big-div">
+            <div>
+              <img src="img/mycat.jpg" alt="cat" class="photo">
+            </div>
+            <div class="info-div">
+              <div class="text">Chewy Promotions</div>
+              <div class="text">Biggest sales of the year!</div>
+              <div class="message">Hey There! We are writing to tell you about our...</div>
+            </div>
+            <div class="time">4:58 PM</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="big-div">
+            <div>
+              <img src="img/cat2.jpeg" alt="cat" class="photo">
+            </div>
+            <div class="info-div">
+              <div class="text">Netflix</div>
+              <div class="text">Biggest sales of the year!</div>
+              <div class="message">Hey There! We are writing to tell you about our...</div>
+            </div>
+            <div class="time">4:58 PM</div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="big-div">
+            <div>
+              <img src="img/cat3.jpeg" alt="cat" class="photo">
+            </div>
+            <div class="info-div">
+              <div class="text">Best Buy</div>
+              <div class="text">Biggest sales of the year!</div>
+              <div class="message">Hey There! We are writing to tell you about our...</div>
+            </div>
+            <div class="time">4:58 PM</div>
+          </div>
+        </div>
+
+      </div>
+      
+    </body>
+  </head>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+      .stretch-button{
+        background-color: green;
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 15px 8px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.5s ease-in-out;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+      }
+
+
+      .stretch-button:hover{
+        padding: 15px 20px; 
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .stretch-button:active{
+       box-shadow: none;
+      }
+      .lorem{
+        font-family: Tahoma, Arial, sans-serif;
+      }
+
+      .lorem2{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .course{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .beginner{
+        margin-top: 0;
+        color: gray;
+      }
+      
+      .mac{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 200px;
+      }
+      .google{
+        font-size: 16px;
+        width: 500px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        border: none;
+        margin-bottom: 30px;
+
+      }
+      .tweet-cat{
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+       
+
+      }
+      .tweet-box{
+        width: 240px;
+        border: none;
+        font-size: 14px;
+       
+      }
+
+      .all-tweet-box{
+        width: 380px;
+        border-radius: 8px;
+        padding: 10px;
+        border: none;
+        font-size: 14px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .tweet-button{
+        background-color: rgb(5, 80, 93);
+        color: white;
+        border-radius: 8px;
+        font-size: 14px;
+        
+      }
+      
+    </style>
+
+  </head>
+
+  <body>
+    <button>Back</button>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <button>Next</button>
+   
+
+    <p><button class="stretch-button">Stretch</button></p>
+
+    <button class="stretch-button"><a href="#"></a>One</button>
+    <button class="stretch-button"><a href="#"></a>Two</button>
+    <button class="stretch-button"><a href="#"></a>Three</button>
+
+
+    <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum omnis ullam ea ipsa natus voluptas temporibus incidunt, unde quisquam voluptate quis quo optio? Dolorem sunt molestiae eligendi dolores, possimus incidunt.</p>
+
+    <p class="lorem2"> <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur assumenda corporis doloremque tenetur dignissimos suscipit dolores, pariatur nihil numquam autem expedita cumque eaque, tempora dolor magnam earum ad provident? Repudiandae!</em></p>
+
+    <div class="course">
+      <p style="font-weight: bold; margin-bottom: 0;">HTML CSS Course</p>
+      <p class="beginner">Beginner to pro</p>
+      <p>in this course you learn the skills to become the developer</p>
+      <button class="stretch-button">Get started</button>
+    </div>
+  
+    <div class="mac">
+      <p style="color: orange;">New</p>
+      <p style="font-weight: bold; font-size: 15px;">MacBook Pro</p>
+      <p style="font-weight: bold; font-size: 25px;">supercharged for pros</p>
+      <p>from &#36;1999</p>
+      <button style="background-color: blue; color: white; border-radius: 10px;">Buy</button>
+    </div>
+
+    <div>
+      <p style="font-size: 25px; font-weight: bold;">1,046,61 <span style="color: gray; font-weight: normal;">USD</span></p>
+      <p style="color: green;">+18.05(1.75%) Today</p>
+      <p><span style="color: gray;">After hours 1,048.00</span> <span style="color: red;">-1.61 (0.15%)</span></p>
+
+    </div>
+
+    <div style="text-align: center; font-family: montserrat;">
+      <p>Model 3</p>
+      <p>Order online for <u>touchless deliver</u></p>
+    </div>
+
+    <div>
+      <input type="text" placeholder="Search Google or type a URL" class="google">
+    </div>
+
+   <div>
+    <img src="/img/mycat.jpg" alt="my-cat">
+   </div>
+
+   
+    <input type="text" placeholder="Search" style="border-radius: 6px; border-color: rgb(178, 10, 10); font-size: 20px; padding: 20px;">
+
+
+
+    <div>
+    <p>
+      <label for="Email"> Email</label>
+    </p>
+     <input type="text" style="width: 400px; padding: 20px; margin-bottom: 40px;">
+    </div>
+
+    <div class="all-tweet-box">
+      <p><img  src="/img/mycat.jpg" alt="my-cat" class="tweet-cat">
+      <input type="text" placeholder="What's happening?" class="tweet-box">
+      <button class="tweet-button">Tweet</button></p>
+    </div>
+
+
+    
+
+    
+   
+  </body>
+
+  
+
+</html>
